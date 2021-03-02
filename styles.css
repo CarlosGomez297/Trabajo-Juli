@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-left{
+    display: flex;
+}
+
+.nav-right{
+    display: flex;
+    justify-content:space-between;
+    padding: 38px
+}
+
+.navbar > .nav-right > div{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5;
+}
+
+.nav-link-wrapper:hover{
+   border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+    color: black;
+} 
+
+.carouel{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px rgb(219, 26, 26), 0 15px 50px;
+}
+
+
+.slider{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.slider__section{
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.siler__section img{
+    width: 300px;
+    height: 300px;
+}
+
+
+.footer{
+    background: rgb(57, 57, 61);
+    position: re;
+    align-self: baseline;
+    display: flex;
+    bottom: auto;
+    justify-content: space-between;
+    color: white;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(76, 76, 87);
+    color: white;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.footer-right a{
+    padding-right: 20px;
+    color: white;
+    align-items: center;
+}
+
+.footer-copyright{
+    padding-left: 20px;
+}
+
+.row-social-media{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.row-social-media img{
+    width: 35px;
+    height: 35px;
+}
+
+.row-social-media label{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #c7c7c7
+}
+
+
+
+.nav-wrapper > .left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
