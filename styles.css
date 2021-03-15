@@ -9,8 +9,12 @@ body{
 }
 
 .navbar{
+    background: #fff;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
     
 }
 
@@ -52,15 +56,16 @@ body{
 } 
 
 .carouel{
-    position: relative;
-    height: 300px;
-    width: 300px;
+    
+    height: 500px;
+    width: 500px;
     margin: auto;
     overflow: hidden;
     box-shadow: 0 0 0 10px rgb(219, 26, 26), 0 15px 50px;
+    align-items: center;
 }
 
-
+/*
 .slider{
     display: flex;
     width: 100%;
@@ -68,16 +73,49 @@ body{
 }
 
 .slider__section{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     display: inline-flex;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 500px;
+    min-height: 500px;
+    z-index: -80;
+    justify-content: space-between;
+    
 }
 
 .siler__section img{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
+}
+*/
+
+.linea-division{
+    width: 80%;
+    height: 2px;
+    background-color: #36221c;
+}
+
+.subtitle{
+    margin: 0;
+    color: #000;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.carouel .slider .slider__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 500px;
+    height: 500px;
 }
 
 
@@ -99,6 +137,8 @@ body{
     justify-content: space-between;
     background: rgb(76, 76, 87);
     color: white;
+    position: sticky;
+    bottom: 0;
 }
 
 .footer-right{
@@ -141,4 +181,9 @@ body{
     margin-right: 20px;
     font-size: 0.9em;
     text-transform: uppercase;
+}
+
+.prueba img{
+    width: 1000px;
+    height: 1000px;
 }
